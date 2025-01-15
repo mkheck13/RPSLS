@@ -23,6 +23,6 @@ Create an Endpoint that when called it will give the CPU response.
 
 ## FeedBack/Peer Review: 
 
-**Reviewer:** "Name Here"
+**Reviewer:** "Name Here" Charles Orr
 
-**Comments:** "Review Here"
+**Comments:** "Review Here" i like your use of an array its not something i had though of, only recommendation i have is adding a way to play again to your figma, just so the player doesnt have to return to the menu each time, aside from that small thing it looks great, i look forward to seeing it finished :)
