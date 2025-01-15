@@ -1,0 +1,5 @@
+{
+    "appService.preDeployTask": "publish-release",
+    "appService.deploySubpath": "bin\\Release\\net8.0\\publish",
+    "appService.defaultWebAppToDeploy": "/subscriptions/11e54ee5-a3b2-421a-9bce-9d5c6208bf2e/resourceGroups/RPSLSHost/providers/Microsoft.Web/sites/HeckermanMRPSLS"
+}
