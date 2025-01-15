@@ -11,7 +11,7 @@ Create an Endpoint that when called it will give the CPU response.
 
 **Date Revised:** 1/14/25
 
-**Approved By:** Jacob 1/14/25 3:50pm
+**Figma Approved By:** Jacob 1/14/25 3:50pm
 
 
 ## Link(s):

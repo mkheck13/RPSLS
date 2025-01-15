@@ -1,12 +1,23 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
 namespace RPSLS.Services
 {
     public class RPSLSServices
     {
-        
+        public string RPSLS()
+        {
+            string[] cpuOutput =
+            [
+                "Rock",
+                "Paper",
+                "Scissors",
+                "Lizard",
+                "Spock"
+            ];
+
+            int randomIndex = new Random().Next(0, cpuOutput.Length);
+
+            return cpuOutput[randomIndex];
+        } 
+
+       
     }
 }

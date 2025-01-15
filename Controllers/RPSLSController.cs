@@ -1,15 +1,24 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using RPSLS.Services;
 
 namespace RPSLS.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     public class RPSLSController : ControllerBase
     {
-        
+        private readonly RPSLSServices _rpslsServices;
+        public RPSLSController(RPSLSServices rPSLSServices)
+        {
+            _rpslsServices = rPSLSServices;
+        }
+
+        [HttpGet]
+        [Route("RPSLS")]
+
+        public string RPSLS()
+        {
+            return _rpslsServices.RPSLS();
+        }
     }
 }
